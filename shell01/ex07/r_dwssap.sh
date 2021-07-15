@@ -1,0 +1,1 @@
+cat /etc/passwd | awk '/^[^#]/' | awk 'NR%2==0' |  awk -F: '{print $1}' | rev | sort -rdf | awk 'NR>=ENVIRON["FT_LINE1"] && NR<=ENVIRON["FT_LINE2"]' | awk '{printf "%s%s",sep,$1; sep=", "}' | awk '{print $0"."}' | tr -d '\n'

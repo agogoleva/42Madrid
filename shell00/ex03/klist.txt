@@ -1,0 +1,5 @@
+Credentials cache: API:8D86D988-A0F7-42BB-92EE-2BECB424335A
+        Principal: agogolev@42MADRID.COM
+
+  Issued                Expires               Principal
+Jun 21 18:19:47 2021  Jun 22 04:19:47 2021  krbtgt/42MADRID.COM@42MADRID.COM
